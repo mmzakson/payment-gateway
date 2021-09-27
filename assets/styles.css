@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #000000;
+	/* background-image: url(./images/app-bg.jpeg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: scroll;
+}
+
+form {
+	background-color: #4143478f !important;
+	border-radius: 30px;
+}
+
+.form-control {
+	background-color: #000000;
+	border: none;
+	color: #ffffff !important;
+	outline: none !important;
+}
+
+.form-control:active,
+.form-control:focus {
+	background-color: #000000 !important;
+	border: 1px solid turquoise;
+	outline: none !important;
+}
+
+label {
+	font-size: 12px;
+}
+
+.payment-method {
+	position: relative;
+}
+
+.payment {
+	position: relative;
+	z-index: 3;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.method {
+	position: absolute;
+	top: 0px;
+	z-index: 2;
+	font-family: "Explora", cursive;
+	font-size: 150px;
+	font-weight: 550;
+	color: turquoise;
+}
+
+.add-cards {
+	color: rgba(255, 255, 255, 0.66);
+	font-size: 12px;
+}
+
+.left-side {
+	background-image: url(./images/app-bg2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Bootstrap Overrides Starts*/
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	border-color: 1px solid #3fe0d0 !important;
+	box-shadow: none;
+}
+
+input[type="radio"] {
+	color: turquoise;
+	border: 1px solid turquoise;
+	background-color: black;
+}
+
+input[type="radio"]:focus,
+input:checked {
+	color: turquoise;
+}
+/* Bootstrap Overrides Ends */

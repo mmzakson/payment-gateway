@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Explora&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./assets/styles.css" />
+		<title>Swift Pay</title>
+	</head>
+	<body>
+		<div class="container-fluid text-light">
+			<div class="container p-2 p-md-5 justify-content-center">
+				<div class="row">
+					<div class="col-md-6 left-side order-md-1 d-md-block"></div>
+					<div class="col-md-5">
+						<div class="row">
+							<div class="col-12 mb-5">
+								<div class="payment-method">
+									<p class="payment">Payment</p>
+									<br />
+									<p class="method mt-n5">Method</p>
+								</div>
+							</div>
+							<div class="col-12 mb-4">
+								<p class="add-cards">
+									You can add cards, <br />
+									bank accounts, and other payment methods to your account.
+								</p>
+							</div>
+							<div class="col-12">
+								<form action="" class="p-3">
+									<div class="row">
+										<div class="col-sm-12 col-md-6 mb-3">
+											<label for="fname" class="form-label">FIRST NAME</label>
+											<input
+												type="text"
+												class="form-control"
+												id="fname"
+												aria-describedby="fname"
+											/>
+										</div>
+										<div class="col-sm-12 col-md-6 mb-3">
+											<label for="lname" class="form-label">LAST NAME</label>
+											<input
+												type="text"
+												class="form-control"
+												id="lname"
+												aria-describedby="lname"
+											/>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-12 col-md-6 mb-3">
+											<label for="phone" class="form-label">PHONE</label>
+											<input
+												type="text"
+												class="form-control"
+												id="phone"
+												aria-describedby="phone"
+											/>
+										</div>
+										<div class="col-sm-12 col-md-6 mb-3">
+											<label for="email" class="form-label">E-MAIL</label>
+											<input
+												type="text"
+												class="form-control"
+												id="email"
+												aria-describedby="email"
+											/>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-3 col-sm-6">
+											<div class="form-check">
+												<input
+													class="form-check-input"
+													type="radio"
+													name="flexRadioDefault"
+													id="radioUSSD"
+												/>
+												<label class="form-check-label" for="radioUSSD">
+													USSD
+												</label>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-6">
+											<div class="form-check">
+												<input
+													class="form-check-input"
+													type="radio"
+													name="flexRadioDefault"
+													id="radioCard"
+												/>
+												<label class="form-check-label" for="radioCard">
+													CARD
+												</label>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-6">
+											<div class="form-check">
+												<input
+													class="form-check-input"
+													type="radio"
+													name="flexRadioDefault"
+													id="radioBank"
+												/>
+												<label class="form-check-label" for="radioBank">
+													BANK
+												</label>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-6">
+											<div class="form-check">
+												<input
+													class="form-check-input"
+													type="radio"
+													name="flexRadioDefault"
+													id="radioScan"
+												/>
+												<label class="form-check-label" for="radioScan">
+													SCAN
+												</label>
+											</div>
+										</div>
+									</div>
+									<hr />
+									<div class="row">
+										<div class="col-12">
+											<label for="exampleInputEmail1" class="form-label"
+												>CARD NUMBER</label
+											>
+											<input
+												type="text"
+												class="form-control"
+												id="exampleInputEmail1"
+												aria-describedby="emailHelp"
+											/>
+										</div>
+										<div class="col-12">
+											<label for="exampleInputEmail1" class="form-label"
+												>EXPIRY DATE</label
+											>
+											<input
+												type="text"
+												class="form-control"
+												id="exampleInputEmail1"
+												aria-describedby="emailHelp"
+											/>
+										</div>
+										<div class="col-6">
+											<label for="exampleInputEmail1" class="form-label"
+												>NAME ON CARD</label
+											>
+											<input
+												type="text"
+												class="form-control"
+												id="exampleInputEmail1"
+												aria-describedby="emailHelp"
+											/>
+										</div>
+										<div class="col-6">
+											<label for="exampleInputEmail1" class="form-label"
+												>CVV CODE</label
+											>
+											<input
+												type="text"
+												class="form-control"
+												id="exampleInputEmail1"
+												aria-describedby="emailHelp"
+											/>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
