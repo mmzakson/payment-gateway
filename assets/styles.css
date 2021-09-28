@@ -9,7 +9,6 @@ body {
 	/* background-image: url(./images/app-bg.jpeg); */
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: scroll;
 }
 
 form {
@@ -47,8 +46,6 @@ label {
 }
 
 .method {
-	position: absolute;
-	top: 0px;
 	z-index: 2;
 	font-family: "Explora", cursive;
 	font-size: 150px;
